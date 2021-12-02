@@ -79,7 +79,7 @@ namespace Karpets.Alg.Search
         static void Main(string[] args)
         {
             var array = new List<int>() { 1, 22, 55, 88, 4, 6, 545, 879, 656891, 54, 3, 2, 15, 51, 6, 61, 8, 894, 89894, 9849849, 4, 9498, 4894894, 9484, 984, 984, 8, 9494, 9, 989877979, 6546, 3538, 4648, 464, 4, 66, 11, 22, 33, 88, 99, 77, 654, 456, 987, 789, 312, 123, 333, 222, 111 };
-
+            
             Console.WriteLine("Массив:");
 
             array.ForEach(x => Console.Write(x + ","));
